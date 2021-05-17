@@ -1,0 +1,152 @@
+body{
+	background: #f4f4f4;
+	color: #555;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+
+}
+.container{
+	width: 70%;
+	margin:auto;
+	overflow:hidden;
+}
+/*.container-about{
+	width: 70%;
+	margin:auto;
+	overflow:hidden;
+}*/
+}
+#main-header{
+	/*background: coral;*/
+	color:#000000;
+}
+#main-header a{
+	/*background: coral;*/
+	size: 16;
+}
+.logo{
+	width: 32px;
+    height: 32px;
+    /*padding-right: 450px;*/
+    align-self: bottom;
+    text-align: left;
+
+}
+.tinylogo{
+	width: 32px;
+    height: 32px;
+}
+#main-navbar{
+	/*background:#333;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color:#000000;
+}
+#main-navbar ul{
+	color:#000000;
+	opacity: 70%;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+#main-navbar li{
+	color:#000000;
+	display:inline;
+}
+#main-navbar a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+	display:inline;
+}
+.miniheader{
+	font-size: 12;
+	opacity: 70%;
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+#head-body{
+	width: 50%;
+}
+#head-sidebar{
+	width:50%;
+	text-align: right;
+}
+#main-body{
+	float: left;
+	width: 60%;
+	/*padding:0px;*/
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+/*#main-side{
+	float:right;
+	width:40%;
+	padding-top: 20px;
+	box-sizing: border-box;
+}*/
+
+#main-text{
+	font-size: 30px;
+	font-family: Georgia;
+	line-height: 35px;
+}
+#main-subtext{
+	font-size: 30px;
+	font-family: Georgia;
+	line-height: 35px;
+	opacity: 80%;
+}
+#main-footer{
+	/*background-color: #333;*/
+	width: 70%;
+	margin:auto;
+	overflow:hidden;
+	text-align: left;
+	color: #fff;
+	padding: 20px;
+	margin-top: 40px;
+
+}
+#main-footer a{
+	padding-right: 20px;
+	opacity: 50%;
+}
+#About-Me{
+	font-size: 24px;
+	font-weight: bold;
+}
+#about-body{
+	float: left;
+	width: 50%;
+}
+#about-body img{
+	width:360px;
+	height:480px;
+}
+#about-sidebar{
+	float:right;
+	width:50%;
+	text-align: right;
+}
+.about-tinylogo{
+	width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    opacity: 50%;
+}
+#about-text{
+	font-size: 14px;
+	font-family: Georgia;
+	/*line-height: 14px;*/
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+}
